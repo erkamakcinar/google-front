@@ -1,0 +1,175 @@
+* {
+    background-color: #202124;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+svg {
+    width: 22px;
+    height: 22px;
+}
+
+a {
+    text-align: center;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar-container {
+    display: flex;
+    padding-top: 7px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.navbar-link {
+    color:white;
+    margin-top: 10px; /* tam ortaya nasıl getirilir bak*/
+    margin-right: 10px;
+}
+.navbar-symbol-circle{
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #202124;
+    border-radius: 50%;
+    filter: brightness(100%);
+    display: flex;
+    text-align: center;
+
+}
+.navbar-symbol-circle:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+}
+
+.navbar-svg {
+    display: block;
+    margin:auto;
+}
+
+.logo-container {
+    
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;    
+}
+
+.logo {
+    width: 280px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-elips {
+    width: 550px;
+    max-width: 80%;
+    height: 45px;
+    border-style: solid;
+    border-radius: 22px;
+    border-color:rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.search-bar-elips:hover {
+    filter: brightness(200%);  
+    border-color: #202124; 
+}
+    
+.search-bar-container button {
+    border-style: none;
+    background: transparent;
+    cursor: pointer; 
+}
+
+.input-reader {
+    width: 70%;
+    outline: none;
+    border-style: none;
+}
+.keyboard-logo-container {
+    display: flex;
+    align-items: center
+}
+
+.keyboard-logo {
+    width: 28px;
+    height: 26px;
+    color:#202124;
+    opacity: 0.3;
+}
+.search-bar-svg {
+    margin:auto 0;
+}
+
+.button-bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-search {
+    height: 36px;
+    width: 120px;
+    color: white;
+    background-color: #303134;
+    border-style: none;
+    border-radius: 6px;
+    border-width: 1px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center; 
+}
+.button-lucky {
+    height: 36px;
+    width: 220px;
+    color: white;
+    background-color: #303134;
+    border-style: none;
+    border-radius: 6px;
+    border-width: 1px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;  
+}
+
+.button-search:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-color:rgb(100, 100, 100);
+}
+
+.button-lucky:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-color:rgb(100, 100, 100); 
+}
+
+.button-search:active {
+    cursor: pointer;
+    border-style: none;
+    
+}
+
+.button-lucky:active {
+    cursor: pointer;
+    border-style:none;
+}
